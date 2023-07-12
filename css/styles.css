@@ -1,0 +1,68 @@
+/* Common shared styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn{
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+/* Navbar related styles */
+
+
+
+
+/* Banner section styles */
+
+.banner-container{
+    min-height: 100vh;
+    background-color: rgb(34, 34, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/pictures/banner-bg.jpg');
+    background-blend-mode: overlay;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.banner{
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner-title{
+    font-size: 5rem;
+    padding: 0 3rem;
+    text-transform: uppercase;
+}
+
+.banner-description{
+    font-size: 1.2rem;
+    margin-top: 10px;
+
+}
